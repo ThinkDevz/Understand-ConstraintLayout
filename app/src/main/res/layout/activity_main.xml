@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thinkdevs.leanui.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/eric_cartman"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/kennymccormick"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/kyle_broflovski"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/stan_marsh"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="291dp" />
+</android.support.constraint.ConstraintLayout>
